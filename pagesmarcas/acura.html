@@ -37,7 +37,73 @@
             </div>
         </nav>
         <main>
-
+            <div>
+                <h1 class="contTitulosH1">ACURA</h1>
+            </div>
         </main>
+        <section class="contenido">
+            <div class="mostrador" id="mostrador">
+                <div class="fila">
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="../imagenes/imagenesCochesVentas/acuransx.jpg" alt="">
+                        </div>
+                        <p class="descripcion">ACURA NSX</p>
+                        <span class="precio">$ 10.300.000</span>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="img/2.png" alt="">
+                        </div>
+                        <p class="descripcion" id>NIKE RUNNING TERRA </p>
+                        <span class="precio">$ 10.800.000</span>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="img/3.png" alt="">
+                        </div>
+                        <p class="descripcion">NIKE WINFLO 8
+                        </p>
+                        <span class="precio">$ 30.600.000</span>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="img/4.png" alt="">
+                        </div>
+                        <p class="descripcion">NIKE LOW-TOP</p>
+                        <span class="precio">$ 10.800.000</span>
+                    </div>
+                </div>
+                    </div>
+            </div>
+            <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+            <div class="seleccion" id="seleccion">
+                <div class="cerrar" onclick="cerrar()">
+                    &#x2715
+                </div>
+                <div class="info">
+                    <img src="img/1.png" alt="" id="img">
+                    <h2 id="modelo">NIKE MODEL 1</h2>
+                    <p id="descripcion">Descripción Modelo 1</p>
+    
+                    <span class="precio" id="precio">$ 130</span>
+    
+                    <div class="fila">
+                        <div class="size">
+                            <label for="">SIZE</label>
+                            <select name="" id="">
+                                <option value="">40</option>
+                                <option value="">42</option>
+                                <option value="">44</option>
+                                <option value="">46</option>
+                            </select>
+                        </div>
+                        <button>COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="../js/script.js"></script>
     </body>
 </html>
