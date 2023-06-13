@@ -1,0 +1,174 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+.holder{
+    width: 960px;
+    margin: 0 auto;
+}
+/* ESTILOS HEADER */
+header{
+    background-color: black;
+    padding: 0.5cm 0;
+}
+header h1{
+    color: white;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+
+.holderHigh{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+/* ESTILOS NAVBAR */
+nav{
+    background-color:rgb(48, 45, 45);
+    margin-bottom: 2em;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+nav ul li a.activo{
+    background-color: rgb(19, 19, 19);
+}
+nav ul li a:hover{
+    background-color: rgb(22, 22, 22);
+}
+/* ESTILOS MAIN */
+.homeImg{
+    margin-bottom: 1.5em;
+}
+.columnas{
+    overflow: hidden;
+}
+.bienvenidos, .testimonios{
+    box-sizing: border-box;
+}
+.bienvenidos{
+    width: 75%;
+    padding-right: 2em;
+}
+.testimonios{
+    width: 25%;
+}
+.testimonio{
+    background-color: #ccc;
+    padding: 1em;
+}
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+    display: block;
+}
+.testimonio .autor{
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+h2{
+    color: rgb(44, 41, 41);
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.marcas{
+    display: flex;
+    justify-content: space-around;
+    border-style: groove;
+}
+.listaMarcas{
+    list-style: none;
+    box-sizing: border-box;
+    display: list-item;
+  
+}
+.logosMarcas{
+    margin-inline-end: 0.5rem;
+    width: 70px;
+}
+.logosMarcasNissan{
+    margin-inline-end: 0.5rem;
+    width: 70px;
+    padding-top: 0.4rem;
+}
+.btn-inner{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+.btn-brand{
+    background-color: #fff;
+    color: grey;
+    border-radius: 1rem;
+}
+.fondosEjemplos{
+    justify-content: center;
+    flex-direction: row-reverse;
+    max-width: 90rem;
+    position: relative;
+    margin-inline-start: auto;
+    display: flex;
+    padding-top: 4rem;
+}
+.imgEjemplo1{
+    height: 300px;
+}
+.imgEjemplo2{
+    height: 300px;
+}
+.contImgEj1{
+    width: 56%;
+}
+.contEjemplo1{
+    width: 100%;
+    height: 100%;
+}
+.contEjemplo2{
+    width: 100%;
+    height: 100%;
+}
+/* ESTILOS FOOTER */
+footer{
+    background-color: rgb(48, 45, 45);
+    clear: both;
+    color: white;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+/* ESTILOS NOSOTROS */
+.contNosotros {
+    width: 50%;
+    padding: 25px;
+    align-items: center;
+}
