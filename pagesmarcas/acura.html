@@ -15,7 +15,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
         <!-- TITULO -->
-        <title>Contacto</title>
+        <title>ACURA</title>
     </head>
     <body>
         <header>
@@ -38,72 +38,61 @@
         </nav>
         <main>
             <div>
-                <h1 class="contTitulosH1">ACURA</h1>
+                <h1 class="titulosMarcas">ACURA</h1>
             </div>
         </main>
         <section class="contenido">
             <div class="mostrador" id="mostrador">
                 <div class="fila">
-                    <div class="item" onclick="cargar(this)">
+                    <div class="item"onclick="cargar(this)">
                         <div class="contenedor-foto">
                             <img src="../imagenes/imagenesCochesVentas/acuransx.jpg" alt="">
                         </div>
-                        <p class="descripcion">ACURA NSX</p>
+                        <p class="descripcion">ACURA NSX R</p>
                         <span class="precio">$ 10.300.000</span>
                     </div>
                     <div class="item" onclick="cargar(this)">
                         <div class="contenedor-foto">
-                            <img src="img/2.png" alt="">
+                            <img src="../imagenes/imagenesCochesVentas/acuraintegra.jpg" alt="">
                         </div>
-                        <p class="descripcion" id>NIKE RUNNING TERRA </p>
+                        <p class="descripcion" id>ACURA INTEGRA </p>
                         <span class="precio">$ 10.800.000</span>
                     </div>
                     <div class="item" onclick="cargar(this)">
                         <div class="contenedor-foto">
-                            <img src="img/3.png" alt="">
+                            <img src="../imagenes/imagenesCochesVentas/acuratsx.jpg" alt="">
                         </div>
-                        <p class="descripcion">NIKE WINFLO 8
-                        </p>
-                        <span class="precio">$ 30.600.000</span>
+                        <p class="descripcion">ACURA TSX</p>
+                        <span class="precio">$ 20.600.000</span>
                     </div>
                     <div class="item" onclick="cargar(this)">
                         <div class="contenedor-foto">
-                            <img src="img/4.png" alt="">
+                            <img src="../imagenes/imagenesCochesVentas/acuransxtyper.jpg" alt="">
                         </div>
-                        <p class="descripcion">NIKE LOW-TOP</p>
+                        <p class="descripcion">ACURA NSX S</p>
                         <span class="precio">$ 10.800.000</span>
                     </div>
                 </div>
                     </div>
             </div>
-            <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
             <div class="seleccion" id="seleccion">
                 <div class="cerrar" onclick="cerrar()">
                     &#x2715
                 </div>
                 <div class="info">
-                    <img src="img/1.png" alt="" id="img">
-                    <h2 id="modelo">NIKE MODEL 1</h2>
-                    <p id="descripcion">Descripción Modelo 1</p>
-    
-                    <span class="precio" id="precio">$ 130</span>
-    
+                    <img src="" alt="" id="img">
+                    <h2 id="modelo">COCHE</h2>
+                    <p id="descripcion">Descripción Modelo</p>
+                    <span class="precio" id="precio"></span>
                     <div class="fila">
-                        <div class="size">
-                            <label for="">SIZE</label>
-                            <select name="" id="">
-                                <option value="">40</option>
-                                <option value="">42</option>
-                                <option value="">44</option>
-                                <option value="">46</option>
-                            </select>
-                        </div>
-                        <button>COMPRAR</button>
+                        <button onclick="comprarAlert()">COMPRAR</button>
                     </div>
                 </div>
             </div>
         </section>
-
-        <script src="../js/script.js"></script>
+    <footer>
+        <p>Diseñado por Joel Barbona - &copy; 2023</p>
+    </footer>
+    <script src="../js/script.js"></script>
     </body>
 </html>

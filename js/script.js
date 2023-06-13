@@ -7,30 +7,36 @@ let precioSeleccionado = document.getElementById("precio");
 
 function cargar(item){
     quitarBordes();
-    mostrador.style.width = "60%";
+    mostrador.style.width = "70%";
     seleccion.style.width = "40%";
     seleccion.style.opacity = "1";
-    item.style.border = "2px solid red";
+    item.style.border = "2px groove red";
 
     imgSeleccionada.src = item.getElementsByTagName("img")[0].src;
 
     modeloSeleccionado.innerHTML =  item.getElementsByTagName("p")[0].innerHTML;
 
-    descripSeleccionada.innerHTML = "Descripción del modelo ";
+    descripSeleccionada.innerHTML = "Descripción del coche";
 
     precioSeleccionado.innerHTML =  item.getElementsByTagName("span")[0].innerHTML;
+    
 
 
 }
-function cerrar(){
+function cerrar(item){
     mostrador.style.width = "100%";
     seleccion.style.width = "0%";
-    seleccion.style.opacity = "0";
+    seleccion.style.opacity = "0"; 
     quitarBordes();
+
+    item.style.border = "2px groove #cfcfcf";
 }
 function quitarBordes(){
     var items = document.getElementsByClassName("item");
     for(i=0;i <items.length; i++){
-        items[i].style.border = "none";
+        items[i].style.border = "2px groove #cfcfcf";
     }
+}
+function comprarAlert(){
+    alert("Muchas gracias por la compra su pedido llegara en breve")
 }
